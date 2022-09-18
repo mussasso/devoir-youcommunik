@@ -37,6 +37,7 @@ nav{
     align-items: start;
     padding: 60px 60px;
     height: 400px;
+
 }
 .s3{
     display: flex;
@@ -76,6 +77,7 @@ nav{
     font-weight: 400;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    height: auto;
 }
 .txte1{
     text-align: left;
@@ -195,10 +197,9 @@ footer h3{
         margin: auto;
     }
     .s2 img{
-        width: 50%;
+
         height: auto;
-        justify-content: center;
-        align-items: center;
+        
     }
     .txte1{
         height: auto;
@@ -261,6 +262,11 @@ footer h3{
         flex-direction: column;
         width: 100%;
         height: auto;
+        text-align: center;
+    }
+    .s1 img{
+        margin: auto;
+        padding-bottom: 2em;
     }
     .s2{
         width: 100%;
@@ -270,10 +276,11 @@ footer h3{
         margin: auto;
     }
     .s2 img{
-        width: 50%;
         height: auto;
         justify-content: center;
         align-items: center;
+        margin: auto;
+        position: inherit;
     }
     .txte1{
         height: auto;
